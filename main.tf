@@ -21,4 +21,9 @@ resource "aws_instance" "my_ec2_instance" {
         Name = "MyFirstTerraformInstance"
     }
 }
+
+resource "aws_vpc" "my_vpc" {
+        cidr_block = "10.0.0.0/16 "
+  }
+
     
