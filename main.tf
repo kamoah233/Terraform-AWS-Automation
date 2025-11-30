@@ -29,4 +29,7 @@ resource "aws_vpc" "my_vpc" {
         }
   }
 
+resource "aws_S3_bucket" "my_S3_bucket" {
+
+}
     
